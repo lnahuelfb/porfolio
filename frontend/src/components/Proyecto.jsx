@@ -13,7 +13,7 @@ export default function Proyecto(props) {
       </TextContainer>
       <A href={props.link} target='_blank' rel="noopener noreferrer">
         <Button>
-          Repositorio de {props.title}
+          Ingresa al repositorio
         </Button>
       </A>
     </Card>

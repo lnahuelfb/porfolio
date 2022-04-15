@@ -1,41 +1,64 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import LogoImg from '../images/nahu.png'
-import {Container, Logo, Navigation, Sections, Item, LinkStyled} from './styles/NavBar.js'
-
+import { Container, Logo, Sections, Item, LinkStyled, Wrapper, LogoContainer, MobileIcon } from './styles/NavBar.js'
+import {IconContext} from 'react-icons'
+import {FaBars} from 'react-icons/fa'
 export default function NavBar() {
+
+  const [isOpen, setIsOpen] = useState(false)
+
+  function handleClick() {
+    setIsOpen(!isOpen)
+  }
 
   return (
     <Container>
-      <Logo src={LogoImg}/>
-      <Navigation>
-        <Sections>
-          <Item>
-            <LinkStyled href='#Presentacion'>
-            ¿Quien Soy?
-            </LinkStyled>
-          </Item>
-          
-          <Item>
-            <LinkStyled href='#Tecnologias'>
-            Tecnologías
-            </LinkStyled>
-          </Item>
+      <Wrapper>
+        <IconContext.Provider
+          value={{
+            style: {
+              fontSize: '2em'
+            }
+          }}>
 
-          <Item>
-          <LinkStyled href='#Proyectos'>
-            Proyectos
-          </LinkStyled>
-          </Item>
+        <LogoContainer>
+          <Logo src={LogoImg}/>
+        </LogoContainer>
+            
+          <MobileIcon onClick= {() => handleClick()}>
+            <FaBars/>
+          </MobileIcon>
+
+        <Sections open={isOpen}>
           
-          <Item>
-            <LinkStyled href='#Contacto'>
-              Contacto
+            <Item>
+              <LinkStyled href='#Presentacion'>
+                  ¿Quien Soy?
+              </LinkStyled>
+            </Item>
+            
+            <Item>
+              <LinkStyled href='#Tecnologias'>
+              Tecnologías
+              </LinkStyled>
+            </Item>
+
+            <Item>
+            <LinkStyled href='#Proyectos'>
+              Proyectos
             </LinkStyled>
-          </Item>
-          
-        </Sections>
-      </Navigation>
+            </Item>
+            
+            <Item>
+              <LinkStyled href='#Contacto'>
+                Contacto
+              </LinkStyled>
+            </Item>
+            
+          </Sections>
+        </IconContext.Provider>
+      </Wrapper>
     </Container>
   )
 }

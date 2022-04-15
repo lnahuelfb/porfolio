@@ -12,6 +12,12 @@ export const CardContainer = styled.div`
   margin-top: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
+
+  @media screen and (max-width: 960px) {
+    width: fit-content;
+    align-content: center;
+    border: 0;
+  }
 `
 
 export const Name = styled.span`
@@ -21,6 +27,10 @@ export const Name = styled.span`
 
 export const Img = styled.img`
   margin-top: 20px;
-  width: 70%;
-  max-height: 200px;
+  max-width: 70%;
+  max-height: 175px;
+  
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
 `

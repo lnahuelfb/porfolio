@@ -1,11 +1,19 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: calc(100% - 140px);
-  margin-left: 70px;
-  margin-right: 70px;
   background-color: white;
   margin-bottom: 25px;
+  text-align: center;
+  padding: 0 75px;
+
+  @media screen and (max-width: 960px) and (min-width: 481px){
+    width: 100%;
+  }
+
+  @media screen and (max-width:480px) {
+    width: 100%;
+    padding: 0 10px;
+  }
 `
 
 export const SubTitle = styled.h2`
@@ -24,4 +32,11 @@ export const CardsContainer = styled.div`
   justify-content: space-around;
   margin-top: 30px;
   margin-bottom: 30px;
+
+  @media screen and (max-width: 960px) {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
 `

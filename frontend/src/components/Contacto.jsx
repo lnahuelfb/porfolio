@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { Container, FormContainer, Form, Input, TextArea, Button, SubTitle } from './styles/Contacto'
+import { Container, FormContainer, Form, Label, Input, TextArea, Button, SubTitle } from './styles/Contacto'
 
 export default function Contacto() {
 
@@ -30,7 +30,7 @@ export default function Contacto() {
     
     <FormContainer>
       <Form action='http://localhost:3001/send-email' method='POST'>
-        <label>Nombre:</label>
+        <Label>Nombre:</Label>
           <Input
             type='text'
             placeholder='Nombre'
@@ -39,7 +39,7 @@ export default function Contacto() {
             value={input.name}
           />
           
-        <label>Empresa:</label>
+        <Label>Empresa:</Label>
           <Input
             type='text'
             placeholder='Empresa'
@@ -48,7 +48,7 @@ export default function Contacto() {
             value={input.company}
           />
           
-        <label>Email:</label>
+        <Label>Email:</Label>
           <Input
             type='email'
             placeholder='Email'
@@ -57,7 +57,7 @@ export default function Contacto() {
             value={input.email}
           />
           
-        <label>Mensaje:</label>
+        <Label>Mensaje:</Label>
           <TextArea
             name='message'
             placeholder='Escriba aquí su mensaje...'

@@ -2,13 +2,17 @@ import styled from 'styled-components';
 
 export const Card = styled.div`
   width: 30%;
-  background-color: #d6d6d6;
-  border: solid 1px black;
-  border-radius: 5px;
+  background-color: white;
+  color: #7510F7;
+  border-radius: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 25px;
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
 `
 
 export const Title = styled.h4`
@@ -25,19 +29,21 @@ export const Technologies = styled.span`
   font-weight: bold;
   text-align: left;
   margin-top: 25px;
-  color: #000040;
+  color: #7510F7;
 `
 
 export const Button = styled.button`
   width: 100%;
+  height: 25px;
   cursor: pointer;
   border-radius: 7px;
   border: solid 1px #b0b0b0;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  background-color: white;
+  background-color: #7510F7;
+  color: white;
   :hover {
-    background-color: #000040;
-    color: white;
+    background-color: white;
+    color: #7510F7;
   }
 `
 export const A = styled.a`

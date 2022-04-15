@@ -9,6 +9,16 @@ export const SubTitle = styled.h3`
 export const Container = styled.div`
   background-color: #7510F7;
   color: white;
+  padding: 0 75px;
+
+  @media screen and (max-width: 960px) and (min-width: 481px) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    padding: 0 10px;
+  }
 `
 
 export const FormContainer = styled.div`
@@ -24,6 +34,10 @@ export const Form = styled.form`
   width: 60%;
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
 `
 
 export const Input = styled.input`
@@ -31,16 +45,31 @@ export const Input = styled.input`
   height: 25px;
   border-radius: 5px;
   margin-top: 5px;
+  caret-color: #7510F7;
+  padding: 5px;
+  &:focus {
+    outline: none;
+  }
+`
+
+export const Label = styled.label`
+  font-weight: 700;
+  margin: 10px 0 10px 0;
 `
 
 export const TextArea = styled.textarea`
   max-width: 100%;
   min-height: 75px;
   height: 75px;
-  border-radius: 5px;
+  border-radius: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-`
+  caret-color: #7510F7;
+  padding: 5px; 
+  &:focus {
+    outline: none;
+  }
+  `
 
 export const Button = styled.button`
   width: 25%;
@@ -52,5 +81,9 @@ export const Button = styled.button`
   &:hover{
     background-color: #7510F7;
     color: white;
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
   }
 `

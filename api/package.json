@@ -8,8 +8,10 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
