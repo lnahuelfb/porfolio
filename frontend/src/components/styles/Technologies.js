@@ -34,9 +34,7 @@ export const CardsContainer = styled.div`
   margin-bottom: 30px;
 
   @media screen and (max-width: 960px) {
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
   }
 `

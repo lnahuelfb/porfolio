@@ -5,8 +5,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
+ 
 }
 
-body {
-  overflow-x: hidden;
+::-webkit-scrollbar-track {
+  background-color: #7510F7;
+  border-radius: 10px;
+  border: solid 1px white
 }

@@ -33,25 +33,25 @@ export default function NavBar() {
         <Sections open={isOpen}>
           
             <Item>
-              <LinkStyled href='#Presentacion'>
+              <LinkStyled href='#AboutMe' onClick={()=> handleClick()}>
                   ¿Quien Soy?
               </LinkStyled>
             </Item>
             
             <Item>
-              <LinkStyled href='#Tecnologias'>
+              <LinkStyled href='#Technologies' onClick={()=> handleClick()}>
               Tecnologías
               </LinkStyled>
             </Item>
 
             <Item>
-            <LinkStyled href='#Proyectos'>
-              Proyectos
+            <LinkStyled href='#Projects' onClick={()=> handleClick()}>
+              ProjectCards
             </LinkStyled>
             </Item>
             
             <Item>
-              <LinkStyled href='#Contacto'>
+              <LinkStyled href='#Contact' onClick={()=> handleClick()}>
                 Contacto
               </LinkStyled>
             </Item>

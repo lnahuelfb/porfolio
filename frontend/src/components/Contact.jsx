@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 
-import { Container, FormContainer, Form, Label, Input, TextArea, Button, SubTitle } from './styles/Contacto'
+import { Container, FormContainer, Form, Label, Input, TextArea, Button, SubTitle } from './styles/Contact'
 
-export default function Contacto() {
+export default function Contact() {
 
   const [input, setInput] = useState({
     name: '',
     company: '',
+    subject: '',
     email: '',
     message: '',
   })
@@ -18,18 +19,14 @@ export default function Contacto() {
     })
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-  }
-
   return (
-    <Container id='Contacto'>
+    <Container id='Contact'>
       <SubTitle>
         Si desea contactarme puede hacerlo mediante este formulario:
       </SubTitle>
     
     <FormContainer>
-      <Form action='http://localhost:3001/send-email' method='POST'>
+      <Form action='http://localhost:3001/send-email' method='POST'> 
         <Label>Nombre:</Label>
           <Input
             type='text'
@@ -37,6 +34,7 @@ export default function Contacto() {
             name='name'
             onChange={handleInputChange}
             value={input.name}
+            required
           />
           
         <Label>Empresa:</Label>
@@ -47,6 +45,15 @@ export default function Contacto() {
             onChange={handleInputChange}
             value={input.company}
           />
+
+        <Label>Motivo del mensaje:</Label>
+          <Input
+            type='text'
+            placeholder='Motivo del mensaje'
+            name='subject'
+            onChange={handleInputChange}
+            value={input.subject}
+          />
           
         <Label>Email:</Label>
           <Input
@@ -55,6 +62,7 @@ export default function Contacto() {
             name='email'
             onChange={handleInputChange}
             value={input.email}
+            required
           />
           
         <Label>Mensaje:</Label>
@@ -63,9 +71,10 @@ export default function Contacto() {
             placeholder='Escriba aquí su mensaje...'
             value={input.message}
             onChange={handleInputChange}
+            required
           />
           
-        <Button type="submit">Enviar</Button>
+        <Button type="submit" >Enviar</Button>
       </Form>
 
     </FormContainer>

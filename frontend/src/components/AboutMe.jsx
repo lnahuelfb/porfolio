@@ -1,10 +1,10 @@
 import React from 'react'
-import { Container, TextContainer, Text, Bold, ImageContainer, Img, Button } from './styles/Presentacion'
+import { Container, TextContainer, Text, Bold, ImageContainer, Img, Button } from './styles/AboutMe'
 import Programming from '../images/programming.png'
 
-export default function Presentacion() {
+export default function AboutMe() {
   return (
-    <Container id='Presentacion'>
+    <Container id='AboutMe'>
         
       <TextContainer>
         <Text>

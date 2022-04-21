@@ -7,7 +7,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  border-radius: 0 0 20px 20px;
+  border-radius: 0 0 50px 50px;
   margin: auto;
   padding: 0 75px 10px 75px;
 
@@ -63,8 +63,10 @@ export const Button = styled.button`
   border-radius: 25px;
   width: 200px;
   background-color: white;
-  margin: 10px 0 10px 0;
+  margin: 25px 0;
   cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
   &:hover {
     background-color: transparent;
     color: white;
