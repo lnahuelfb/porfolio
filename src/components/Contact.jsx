@@ -26,7 +26,7 @@ export default function Contact() {
       </SubTitle>
     
     <FormContainer>
-      <Form action='http://localhost:3001/send-email' method='POST'> 
+      <Form action='https://node-express-mailer.herokuapp.com/send-email' method='POST'> 
         <Label>Nombre:</Label>
           <Input
             type='text'

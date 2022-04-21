@@ -46,7 +46,7 @@ export default function NavBar() {
 
             <Item>
             <LinkStyled href='#Projects' onClick={()=> handleClick()}>
-              ProjectCards
+              Proyectos
             </LinkStyled>
             </Item>
             
