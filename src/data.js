@@ -67,14 +67,14 @@ export const projects = [
     technologies: 'Hecho con: HTML, CSS, React, React Context, NodeJS, Express, MongoDB'
   },
   {
-    title: 'PokeRandom',
+    title: 'PokeRandom-React',
     description: 'Una aplicación donde al tocar un boton te devuelve un pokemon al azar',
     img: PokeRandom,
     link: 'https://github.com/lnahuelfb/PokeRandom-React',
     technologies: 'Hecho con: HTML, Styled Components, JS y React'
   },
   {
-    title: 'PokeRandom',
+    title: 'PokeRandom-JS',
     description: 'Es la misma app que PokeRandom pero con Vanila JS',
     img: PokeRandom,
     link: 'https://github.com/lnahuelfb/PokeRandom-js-vanila',
