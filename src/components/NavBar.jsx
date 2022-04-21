@@ -3,7 +3,8 @@ import React, {useState} from 'react'
 import LogoImg from '../images/nahu.png'
 import { Container, Logo, Sections, Item, LinkStyled, Wrapper, LogoContainer, MobileIcon } from './styles/NavBar.js'
 import {IconContext} from 'react-icons'
-import {FaBars} from 'react-icons/lib/fa'
+import { FaBars } from 'react-icons/lib/fa'
+
 export default function NavBar() {
 
   const [isOpen, setIsOpen] = useState(false)
