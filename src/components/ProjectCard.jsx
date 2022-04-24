@@ -11,11 +11,23 @@ export default function ProjectCard(props) {
         <Description>{props.description}</Description>
         <Technologies>{props.technologies}</Technologies>
       </TextContainer>
-      <A href={props.link} target='_blank' rel="noopener noreferrer">
+      <A href={props.github} target='_blank' rel="noopener noreferrer">
         <Button>
           Ingresa al repositorio
         </Button>
       </A>
+      {
+        props.link
+          ?
+          <>
+            <A href={props.link} target='_blank' rel="noopener noreferrer">
+              <Button>
+                Ver el proyecto
+              </Button>
+            </A>
+          </>
+          : null
+      }
     </Card>
   )
 }
