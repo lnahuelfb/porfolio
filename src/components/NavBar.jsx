@@ -24,7 +24,7 @@ export default function NavBar() {
           }}>
 
         <LogoContainer>
-          <Logo src={LogoImg}/>
+            <Logo src={LogoImg} alt='logo'/>
         </LogoContainer>
             
           <MobileIcon onClick= {() => handleClick()}>

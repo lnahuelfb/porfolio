@@ -19,7 +19,7 @@ export default function AboutMe() {
         </a>
       </TextContainer>
       <ImageContainer>
-        <Img src={ Programming }/>
+        <Img src={ Programming } alt='imagen'/>
       </ImageContainer>
     </Container>
   )

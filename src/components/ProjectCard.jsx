@@ -6,7 +6,7 @@ export default function ProjectCard(props) {
   return (
     <Card>
       <Title>{props.title}</Title>
-      <Img src={props.img} alt={props.alt} />
+      <Img src={props.img} alt={props.title} />
       <TextContainer>
         <Description>{props.description}</Description>
         <Technologies>{props.technologies}</Technologies>

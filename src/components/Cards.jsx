@@ -6,7 +6,7 @@ export default function Cards(props) {
   return (
     <CardContainer>
       <Name>{props.name}</Name>
-      <Img src={props.img}/>
+      <Img src={props.img} alt={props.name}/>
     </CardContainer>
   )
 }

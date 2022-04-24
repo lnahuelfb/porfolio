@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <Container>
       <LogoContainer>
-        <Img src={Logo} />
+        <Img src={Logo} alt='logo del footer'/>
         <Span>Nahuel Fernandez Beschtedt</Span>
       </LogoContainer>
       <SocialContainer>
