@@ -1,22 +1,11 @@
-import React, { useState, useEffect }from 'react';
+import React from 'react';
 
 import { Container, ProjectContainer, Title, Span } from './styles/Projects'
 import ProjectCard from './ProjectCard';
 
+import { projects } from '../data';
+
 export default function Projects() {
-
-  const [Projects, setProjects] = useState([])
-  const API = 'https://node-express-mailer.herokuapp.com/projects'
-
-  const fetchProjects = async (API) => {
-    const response = await fetch(API)
-    const data = await response.json()
-    setProjects(data)
-  }
-  
-  useEffect(() => {
-    fetchProjects(API)
-  }, [])
 
   return (
     <Container id='Projects'>
@@ -29,8 +18,8 @@ export default function Projects() {
       <ProjectContainer>
 
         {
-          Projects
-            ? Projects.map(proyect => (
+          projects
+            ? projects.map(proyect => (
               <ProjectCard
                 key={proyect.title}
                 title={proyect.title}
