@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  /* background-color: white; */
   background-color: #7510F7;
   color: white;
   display: flex;
@@ -17,7 +16,6 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width:480px) {
-    width: 100%;
     padding: 0 10px;
   }
 `
@@ -42,5 +40,4 @@ export const ProjectContainer = styled.div`
 export const Span = styled.span`
   font-size: 25px;
   margin-top: 15px;
-  
 `

@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   height: 75px;
-  /* background-color: #000022; */
   background-color: #7510F7;
   display: flex;
   align-items: center;
@@ -15,7 +14,6 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    width: 100%;
     padding: 0 10px;
   }
   `
