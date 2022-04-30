@@ -65,7 +65,7 @@ export const projects = [
     description: 'Una aplicación donde se puede crear, editar y eliminar tareas',
     img: ToDoList,
     github: 'https://github.com/lnahuelfb/toDoList-fullstack-backend',
-    technologies: 'Hecho con: HTML, CSS, React, NodeJS, Express, MongoDB'
+    technologies: 'Hecho con: HTML, CSS, React, NodeJS, Express'
   },
   {
     title: 'PokeRandom-JS',
