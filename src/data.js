@@ -65,6 +65,7 @@ export const projects = [
     description: 'Una aplicación donde se puede crear, editar y eliminar tareas',
     img: ToDoList,
     github: 'https://github.com/lnahuelfb/toDoList-fullstack-backend',
+    link: 'https://to-do-list-nahuelfb.vercel.app/',
     technologies: 'Hecho con: HTML, CSS, React, NodeJS, Express'
   },
   {
