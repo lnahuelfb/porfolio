@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  /* background-color: #000022; */
   background-color: #7510F7;
   height: 75px;
   display: flex;
@@ -43,7 +42,7 @@ export const SocialContainer = styled.div`
 
   @media screen and (max-width: 960px) {
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 20px 0;
   }
 `
@@ -54,7 +53,6 @@ export const Img = styled.img`
 
   @media screen and (max-width: 960px) {
     display: block;
-    width: 75px;
     margin: 0
   }
 `

@@ -22,7 +22,7 @@ export default function Contact() {
   return (
     <Container id='Contact'>
       <SubTitle>
-        Si desea contactarme puede hacerlo mediante este formulario:
+        Si estas interesado en contactarme podes hacerlo mediante este formulario:
       </SubTitle>
     
       <FormContainer>

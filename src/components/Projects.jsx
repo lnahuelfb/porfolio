@@ -12,7 +12,7 @@ export default function Projects() {
       <Title>Proyectos individuales:</Title>
 
       <Span>
-        Actualmente no cuento con experiencia profesional, pero aquí te dejo mis proyectos individuales para demostrar mis conocimientos en las distintas tecnologías.
+        Actualmente no cuento con experiencia profesional, pero acá te dejo mis proyectos individuales para demostrar mis conocimientos en las distintas tecnologías.
       </Span>
 
       <ProjectContainer>

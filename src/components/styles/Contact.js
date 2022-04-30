@@ -77,6 +77,7 @@ export const Button = styled.button`
   border-radius: 7px;
   color: #7510F7;
   background-color: white;
+  font-weight: bold;
   &:hover{
     background-color: #7510F7;
     color: white;
