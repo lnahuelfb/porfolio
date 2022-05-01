@@ -19,6 +19,28 @@ export default function Contact() {
     })
   }
 
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    fetch('http://localhost:3001/send-email', {
+      method: 'POST',
+      body: JSON.stringify(input),
+      headers: {
+        'Acept': 'application/json',
+        'Content-Type': 'application/json'
+      }
+    })
+      .then(response => {
+        if (response.ok) {
+          return window.alert('Email enviado!')
+        } else {
+          throw new Error('Algo salió mal')
+        }
+      })
+      .catch(error => {
+        console.log(error)
+      })
+  }
+  
   return (
     <Container id='Contact'>
       <SubTitle>
@@ -26,7 +48,7 @@ export default function Contact() {
       </SubTitle>
     
       <FormContainer>
-        <Form action='https://node-express-mailer.herokuapp.com/send-email' method='POST'> 
+        <Form onSubmit={handleSubmit}> 
           <Label>Nombre:</Label>
             <Input
               type='text'
@@ -74,7 +96,7 @@ export default function Contact() {
               required
             />
             
-          <Button type="submit" >Enviar</Button>
+          <Button type="submit" onSubmit={handleSubmit}>Enviar</Button>
         </Form>
 
       </FormContainer>
