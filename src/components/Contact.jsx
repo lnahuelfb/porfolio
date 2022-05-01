@@ -21,7 +21,7 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    fetch('http://localhost:3001/send-email', {
+    fetch('https://node-express-mailer.herokuapp.com/send-email', {
       method: 'POST',
       body: JSON.stringify(input),
       headers: {
@@ -40,7 +40,7 @@ export default function Contact() {
         console.log(error)
       })
   }
-  
+
   return (
     <Container id='Contact'>
       <SubTitle>
