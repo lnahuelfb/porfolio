@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Card = styled.div`
-  width: 30%;
+  width: 40%;
   background-color: white;
   color: #7510F7;
   border-radius: 25px;
@@ -20,6 +20,8 @@ export const Title = styled.h4`
 `
 export const Img = styled.img`
   width: 70%;
+  height: 100px;
+  object-fit: contain;
 `
 export const Description = styled.span`
   font-size: 20px;

@@ -54,7 +54,7 @@ export const techs = [
 export const projects = [
   {
     title: 'Rick and Morty API',
-    description: 'Una aplicación donde se puede ver la información de los personajes de Rick and Morty',
+    description: 'Una aplicación donde se puede ver la información de los personajes de Rick and Morty, incluye una barra de busqueda para buscar determinados personajes',
     img: RickAndMorty,
     github: 'https://github.com/lnahuelfb/rick-and-morty',
     link: 'https://rick-and-morty-app-lnahuelfb.vercel.app/',
