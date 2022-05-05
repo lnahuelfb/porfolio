@@ -1,6 +1,7 @@
 import PokeRandom from './images/PokeRandom.png'
 import RickAndMorty from './images/rick-and-morty.png'
 import ToDoList from './images/todolist.png'
+import Twitter from './images/twitter.svg'
 
 import ReactLogo from './images/react.svg'
 import HTML from './images/html5.svg'
@@ -11,6 +12,7 @@ import express from './images/express.svg'
 import postgreSQL from './images/postgresql.svg'
 import sequelize from './images/Sequelize.svg'
 import mongodb from './images/mongodb.png'
+
 
 export const techs = [
   {
@@ -53,12 +55,19 @@ export const techs = [
 
 export const projects = [
   {
+    title: 'TwitDev (En desarrollo)',
+    description: 'Una red social para desarrolladores que aman twitter. En ella podrás twittear, retwittear, dar likes y ver tanto tu perfil, como el de otros usuarios.',
+    img: Twitter,
+    github: 'https://github.com/lnahuelfb/twitter-frontend',
+    technologies: 'HTML, CSS, React, React Context, Node, Express, MongoDB y Mongoose'
+  },
+  {
     title: 'Rick and Morty API',
     description: 'Una aplicación donde se puede ver la información de los personajes de Rick and Morty, incluye una barra de busqueda para buscar determinados personajes',
     img: RickAndMorty,
     github: 'https://github.com/lnahuelfb/rick-and-morty',
     link: 'https://rick-and-morty-app-lnahuelfb.vercel.app/',
-    technologies: 'Hecho con: HTML, CSS, React y React Context'
+    technologies: 'HTML, CSS, React y React Context'
   },
   {
     title: 'ToDo List',
@@ -66,7 +75,7 @@ export const projects = [
     img: ToDoList,
     github: 'https://github.com/lnahuelfb/toDoList-fullstack-backend',
     link: 'https://to-do-list-nahuelfb.vercel.app/',
-    technologies: 'Hecho con: HTML, CSS, React, NodeJS, Express'
+    technologies: 'HTML, CSS, React, NodeJS, Express'
   },
   {
     title: 'PokeRandom-React',
@@ -74,7 +83,7 @@ export const projects = [
     img: PokeRandom,
     github: 'https://github.com/lnahuelfb/PokeRandom-React',
     link: 'https://poke-random-react.vercel.app/',
-    technologies: 'Hecho con: HTML, Styled Components, JS y React'
+    technologies: 'HTML, Styled Components, JS y React'
   },
   {
     title: 'PokeRandom-JS',
@@ -82,6 +91,6 @@ export const projects = [
     img: PokeRandom,
     github: 'https://github.com/lnahuelfb/PokeRandom-js-vanila',
     link: 'https://pokerandom-js.netlify.app/',
-    technologies: 'Hecho con: HTML, CSS y JavaScript'
+    technologies: 'HTML, CSS y JavaScript'
   },
 ]
