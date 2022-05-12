@@ -80,6 +80,7 @@ export const Button = styled.button`
   background-color: white;
   font-weight: bold;
   border: 0;
+  cursor: pointer;
   &:hover{
     background-color: #7510F7;
     color: white;
