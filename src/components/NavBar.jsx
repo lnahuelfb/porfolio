@@ -23,9 +23,11 @@ export default function NavBar() {
             }
           }}>
 
-        <LogoContainer>
+        <a href="#top">
+          <LogoContainer>
             <Logo src={LogoImg} alt='logo'/>
-        </LogoContainer>
+          </LogoContainer>
+        </a>
             
           <MobileIcon onClick= {() => handleClick()}>
             <FaBars/>

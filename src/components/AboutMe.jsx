@@ -4,7 +4,7 @@ import Programming from '../images/programming.png'
 
 export default function AboutMe() {
   return (
-    <Container id='AboutMe'>
+    <Container>
         
       <TextContainer>
         <Text>
