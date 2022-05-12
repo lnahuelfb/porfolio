@@ -46,6 +46,7 @@ export const Input = styled.input`
   margin-top: 5px;
   caret-color: #7510F7;
   padding: 5px;
+  border: 0;
   &:focus {
     outline: none;
   }
@@ -78,9 +79,11 @@ export const Button = styled.button`
   color: #7510F7;
   background-color: white;
   font-weight: bold;
+  border: 0;
   &:hover{
     background-color: #7510F7;
     color: white;
+    border: 2px solid white;
   }
 
   @media screen and (max-width: 960px) {
