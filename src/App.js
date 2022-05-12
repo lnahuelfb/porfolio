@@ -9,16 +9,14 @@ import Technologies from './components/Technologies.jsx';
 
 function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <NavBar />
-        <AboutMe />
-        <Technologies />
-        <Projects />
-        <Contact />
-        <Footer />
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <NavBar />
+      <AboutMe />
+      <Technologies />
+      <Projects />
+      <Contact />
+      <Footer />
+    </BrowserRouter>
   );
 }
 

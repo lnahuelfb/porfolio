@@ -62,12 +62,15 @@ export const Button = styled.button`
   border-radius: 25px;
   width: 200px;
   background-color: white;
+  color: #7510F7 ;
   margin: 25px 0;
   cursor: pointer;
   font-size: 20px;
   font-weight: bold;
+  border: 0;
   &:hover {
     background-color: transparent;
     color: white;
+    border: 2px solid white;
   }
 `
