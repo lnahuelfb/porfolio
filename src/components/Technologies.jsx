@@ -2,7 +2,7 @@ import React from 'react';
 import Cards from './Cards'
 
 import { Container, Span, SubTitle, CardsContainer } from './styles/Technologies';
-import { techs } from '../data';
+import { techs } from 'data';
 
 export default function Technologies() {
 

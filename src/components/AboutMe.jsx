@@ -1,6 +1,8 @@
 import React from 'react'
+
 import { Container, TextContainer, Text, Bold, ImageContainer, Img, Button } from './styles/AboutMe'
-import Programming from '../images/programming.png'
+
+import Programming from 'images/programming.png'
 
 export default function AboutMe() {
   return (

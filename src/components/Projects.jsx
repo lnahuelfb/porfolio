@@ -1,9 +1,9 @@
 import React from 'react';
 
 import { Container, ProjectContainer, Title, Span } from './styles/Projects'
-import ProjectCard from './ProjectCard';
+import ProjectCard from 'components/ProjectCard';
 
-import { projects } from '../data';
+import { projects } from 'data';
 
 export default function Projects() {
 

@@ -1,20 +1,20 @@
-import PokeRandom from './images/PokeRandom.png'
-import RickAndMorty from './images/rick-and-morty.png'
-import ToDoList from './images/todolist.png'
-import Twitter from './images/twitter.svg'
+import PokeRandom from 'images/PokeRandom.png'
+import RickAndMorty from 'images/rick-and-morty.png'
+import ToDoList from 'images/todolist.png'
+import Twitter from 'images/twitter.svg'
 
-import ReactLogo from './images/react.svg'
-import HTML from './images/html5.svg'
-import CSS from './images/css3.svg'
-import JS from './images/javascript.svg'
-import node from './images/nodejs.svg'
-import express from './images/express.svg'
-import postgreSQL from './images/postgresql.svg'
-import sequelize from './images/Sequelize.svg'
-import mongodb from './images/mongodb.png'
+import ReactLogo from 'images/react.svg'
+import HTML from 'images/html5.svg'
+import CSS from 'images/css3.svg'
+import JS from 'images/javascript.svg'
+import node from 'images/nodejs.svg'
+import express from 'images/express.svg'
+import postgreSQL from 'images/postgresql.svg'
+import sequelize from 'images/Sequelize.svg'
+import mongodb from 'images/mongodb.png'
 
 
-export const techs = [
+const techs = [
   {
     name: 'HTML',
     img: HTML,
@@ -53,11 +53,12 @@ export const techs = [
   }
 ]
 
-export const projects = [
+const projects = [
   {
     title: 'TwitDev (En desarrollo)',
     description: 'Una red social para desarrolladores que aman twitter. En ella podrás twittear, retwittear, dar likes y ver tanto tu perfil, como el de otros usuarios.',
     img: Twitter,
+    link: 'https://twitter-nahuelfb.vercel.app',
     github: 'https://github.com/lnahuelfb/twitter-frontend',
     technologies: 'HTML, CSS, React, React Context, Node, Express, MongoDB y Mongoose'
   },
@@ -94,3 +95,5 @@ export const projects = [
     technologies: 'HTML, CSS y JavaScript'
   },
 ]
+
+export {techs, projects}

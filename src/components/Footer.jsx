@@ -1,10 +1,11 @@
 import React from 'react';
+
 import { Container, SocialContainer, LogoContainer, Img, Span } from './styles/Footer'
 
-import Linkedin from '../images/linkedin.svg'
-import GitHub from '../images/white-github.png'
-import WhatsApp from '../images/whatsApp.png'
-import Logo from '../images/nahu.png'
+import Linkedin from 'images/linkedin.svg'
+import GitHub from 'images/white-github.png'
+import WhatsApp from 'images/whatsApp.png'
+import Logo from 'images/nahu.png'
 
 export default function Footer() {
   return (
