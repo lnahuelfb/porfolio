@@ -6,8 +6,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   padding: 0 75px;
-  position: sticky;
-  top: 0;
+  border-radius: 0px 0px 50px 50px;
 
   @media screen and (max-width: 960px) and (min-width: 481px) {
     width: 100%;
@@ -15,6 +14,7 @@ export const Container = styled.div`
 
   @media screen and (max-width: 480px) {
     padding: 0 10px;
+    border-radius: 0px 0px 25px 25px;
   }
   `
 
@@ -38,6 +38,10 @@ export const LogoContainer = styled.div`
 export const Logo = styled.img`
   height: 60px;
   cursor: pointer;
+
+  @media screen and (max-width: 480px) {
+    height: 40px;
+  }
 `
 
 export const Sections = styled.ul`
@@ -123,4 +127,10 @@ export const MobileIcon = styled.div`
       margin-right: 8px;
     }
   }
+`
+
+export const Background = styled.div`
+  background-color: transparent;
+  position: sticky;
+  top: 0;
 `

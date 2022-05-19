@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const Background = styled.div`
+  background-color: #fff;
+`
+
 export const Container = styled.div`
   background-color: #7510F7;
   color: white;
@@ -23,7 +27,8 @@ export const Container = styled.div`
 export const Title = styled.h2`
   display: block;
   text-align: center;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 25px 0;
 `
 
 export const ProjectContainer = styled.div`

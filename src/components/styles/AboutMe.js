@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const Background = styled.div`
+  background-color: #fff;
+  height: auto;
+`
+
 export const Container = styled.div`
   background-color: #7510F7;
   color: white;

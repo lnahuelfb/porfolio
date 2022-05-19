@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background-color: white;
-  margin-bottom: 25px;
+  margin: 0;
   text-align: center;
-  padding: 0 75px;
+  padding: 25px 75px;
 
   @media screen and (max-width: 960px) and (min-width: 481px){
     width: 100%;
@@ -17,6 +17,8 @@ export const Container = styled.div`
 
 export const SubTitle = styled.h2`
   text-align: center;
+  margin: 0;
+  padding: 25px;
 `
 
 export const Span = styled.span`
@@ -31,9 +33,4 @@ export const CardsContainer = styled.div`
   justify-content: space-around;
   margin-top: 30px;
   margin-bottom: 30px;
-
-  @media screen and (max-width: 960px) {
-    /* justify-content: center;
-    align-items: center; */
-  }
 `
