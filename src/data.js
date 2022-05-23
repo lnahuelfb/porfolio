@@ -58,7 +58,7 @@ const projects = [
     title: 'TwitDev (En desarrollo)',
     description: 'Una red social para desarrolladores que aman twitter. En ella podrás twittear, retwittear, dar likes y ver tanto tu perfil, como el de otros usuarios.',
     img: Twitter,
-    link: 'https://twitter-nahuelfb.vercel.app',
+    // link: 'https://twitter-nahuelfb.vercel.app',
     github: 'https://github.com/lnahuelfb/twitter-frontend',
     technologies: 'HTML, CSS, React, React Context, Node, Express, MongoDB y Mongoose'
   },
