@@ -2,6 +2,7 @@ import PokeRandom from 'images/PokeRandom.png'
 import RickAndMorty from 'images/rick-and-morty.png'
 import ToDoList from 'images/todolist.png'
 import Twitter from 'images/twitter.svg'
+import Weather from 'images/sun.svg'
 
 import ReactLogo from 'images/react.svg'
 import HTML from 'images/html5.svg'
@@ -54,6 +55,13 @@ const techs = [
 ]
 
 const projects = [
+  {
+    title: 'Weater App (En desarrollo)',
+    description: 'Una aplicación web que permite ver el clima de una ciudad',
+    github: 'https://github.com/lnahuelfb/weather-app',
+    img: Weather,
+    technologies: 'HTML, CSS, JavaScript, React, React Context, NodeJS, Express',
+  },
   {
     title: 'TwitDev (En desarrollo)',
     description: 'Una red social para desarrolladores que aman twitter. En ella podrás twittear, retwittear, dar likes y ver tanto tu perfil, como el de otros usuarios.',
