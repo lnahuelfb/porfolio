@@ -56,7 +56,7 @@ const techs = [
 
 const projects = [
   {
-    title: 'Weater App (En desarrollo)',
+    title: 'Weather App (En desarrollo)',
     description: 'Una aplicación web que permite ver el clima de una ciudad',
     github: 'https://github.com/lnahuelfb/weather-app',
     img: Weather,
