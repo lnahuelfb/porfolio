@@ -21,6 +21,7 @@ export const Container = styled.div`
 
   @media screen and (max-width:480px) {
     padding: 0 10px;
+    border-radius: 25px 25px 0px 0px;
   }
 `
 

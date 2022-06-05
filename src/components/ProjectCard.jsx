@@ -9,7 +9,7 @@ export default function ProjectCard(props) {
       <Img src={props.img} alt={props.title} />
       <TextContainer>
         <Description>{props.description}</Description>
-        <Technologies>Hecho con: {props.technologies}</Technologies>
+        <Technologies>Hecho con: {props.technologies.join(', ')}.</Technologies>
       </TextContainer>
       <A href={props.github} target='_blank' rel="noopener noreferrer">
         <Button>

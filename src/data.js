@@ -13,6 +13,7 @@ import express from 'images/express.svg'
 import postgreSQL from 'images/postgresql.svg'
 import sequelize from 'images/Sequelize.svg'
 import mongodb from 'images/mongodb.png'
+import typeScript from 'images/typescript.svg'
 
 
 const techs = [
@@ -27,6 +28,10 @@ const techs = [
   {
     name: 'JavaScript',
     img: JS,
+  },
+  {
+    name: 'TypeScript',
+    img: typeScript,
   },
   {
     name: 'React',
@@ -60,7 +65,7 @@ const projects = [
     description: 'Una aplicación web que permite ver el clima de una ciudad',
     github: 'https://github.com/lnahuelfb/weather-app',
     img: Weather,
-    technologies: 'HTML, CSS, JavaScript, React, React Context, NodeJS, Express',
+    technologies: ['HTML', 'CSS', 'TypeScript', 'React', 'React Context', 'Node + TypeScript', 'Express'],
   },
   {
     title: 'TwitDev (En desarrollo)',
@@ -68,7 +73,7 @@ const projects = [
     img: Twitter,
     // link: 'https://twitter-nahuelfb.vercel.app',
     github: 'https://github.com/lnahuelfb/twitter-frontend',
-    technologies: 'HTML, CSS, React, React Context, Node, Express, MongoDB y Mongoose'
+    technologies: ['HTML', 'CSS', 'React', 'React Context', 'NodeJS', 'Express', 'MongoDB', 'Mongoose']
   },
   {
     title: 'Rick and Morty API',
@@ -76,7 +81,7 @@ const projects = [
     img: RickAndMorty,
     github: 'https://github.com/lnahuelfb/rick-and-morty',
     link: 'https://rick-and-morty-app-lnahuelfb.vercel.app/',
-    technologies: 'HTML, CSS, React y React Context'
+    technologies: ['HTML', 'CSS', 'React', 'React Context']
   },
   {
     title: 'ToDo List',
@@ -84,7 +89,7 @@ const projects = [
     img: ToDoList,
     github: 'https://github.com/lnahuelfb/toDoList-fullstack-backend',
     link: 'https://to-do-list-nahuelfb.vercel.app/',
-    technologies: 'HTML, CSS, React, NodeJS, Express'
+    technologies: ['HTML', 'CSS', 'React', 'NodeJS', 'Express']
   },
   {
     title: 'PokeRandom-React',
@@ -92,7 +97,7 @@ const projects = [
     img: PokeRandom,
     github: 'https://github.com/lnahuelfb/PokeRandom-React',
     link: 'https://poke-random-react.vercel.app/',
-    technologies: 'HTML, Styled Components, JS y React'
+    technologies: ['HTML', 'Styled Components', 'React']
   },
   {
     title: 'PokeRandom-JS',
@@ -100,7 +105,7 @@ const projects = [
     img: PokeRandom,
     github: 'https://github.com/lnahuelfb/PokeRandom-js-vanila',
     link: 'https://pokerandom-js.netlify.app/',
-    technologies: 'HTML, CSS y JavaScript'
+    technologies: ['HTML', 'CSS', 'JavaScript']
   },
 ]
 

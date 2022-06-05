@@ -32,5 +32,11 @@ export const CardsContainer = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 30px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+
+  @media screen and (max-width:320px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `

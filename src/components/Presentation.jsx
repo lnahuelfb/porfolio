@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Background, Container, TextContainer, Text, Bold, ImageContainer, Img, Button } from './styles/AboutMe'
+import { Background, Container, TextContainer, Text, Bold, ImageContainer, Img, Button } from './styles/Presentation'
 
 import Programming from 'images/programming.png'
 

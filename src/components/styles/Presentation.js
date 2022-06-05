@@ -23,6 +23,7 @@ export const Container = styled.div`
 
   @media screen and (max-width: 480px) {
     padding: 0 10px;
+    border-radius: 0px 0px 25px 25px;
   }
 `
 export const TextContainer = styled.div`

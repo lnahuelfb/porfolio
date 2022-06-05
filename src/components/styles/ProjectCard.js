@@ -30,7 +30,7 @@ export const Description = styled.span`
 export const Technologies = styled.span`
   font-weight: bold;
   text-align: left;
-  margin-top: 25px;
+  margin-top: 15px;
   color: #7510F7;
 `
 
