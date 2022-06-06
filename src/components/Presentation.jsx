@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Background, Container, TextContainer, Text, Bold, ImageContainer, Img, Button } from './styles/Presentation'
 
-import Programming from 'images/programming.png'
+import Photo from 'images/photo.jpg'
 
 export default function AboutMe() {
   return (
@@ -21,7 +21,7 @@ export default function AboutMe() {
           </a>
         </TextContainer>
         <ImageContainer>
-          <Img src={ Programming } alt='imagen'/>
+          <Img src={ Photo } alt='imagen'/>
         </ImageContainer>
       </Container>
     </Background>

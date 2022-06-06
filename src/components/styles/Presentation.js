@@ -17,11 +17,12 @@ export const Container = styled.div`
   padding: 0 75px 10px 75px;
 
   @media screen and (max-width: 960px) and (min-width: 481px){
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
   }
 
   @media screen and (max-width: 480px) {
+    flex-direction: column-reverse;
     padding: 0 10px;
     border-radius: 0px 0px 25px 25px;
   }
@@ -51,12 +52,15 @@ export const ImageContainer = styled.div`
   align-items: center;
 
   @media screen and (max-width: 960px) {
-    display: none;
+    width: unset;
+    height: auto;
   }
 `
 
 export const Img = styled.img`
- height: 100%;
+ height: 75%;
+ border-radius: 50%;
+ border: 3px solid white;
 `
 
 export const Bold = styled.span`
