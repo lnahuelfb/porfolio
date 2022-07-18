@@ -1,8 +1,8 @@
 import PokeRandom from 'images/PokeRandom.png'
 import RickAndMorty from 'images/rick-and-morty.png'
 import ToDoList from 'images/todolist.png'
-import Twitter from 'images/twitter.svg'
-import Weather from 'images/sun.svg'
+import Variocolorida from 'images/variocolorida.png'
+// import Weather from 'images/sun.svg'
 
 import ReactLogo from 'images/react.svg'
 import HTML from 'images/html5.svg'
@@ -60,20 +60,20 @@ const techs = [
 ]
 
 const projects = [
+  // {
+  //   title: 'Weather App (En desarrollo)',
+  //   description: 'Una aplicación web que permite ver el clima de una ciudad',
+  //   github: 'https://github.com/lnahuelfb/weather-app',
+  //   img: Weather,
+  //   technologies: ['HTML', 'CSS', 'TypeScript', 'React', 'React Context', 'Node + TypeScript', 'Express'],
+  // },
   {
-    title: 'Weather App (En desarrollo)',
-    description: 'Una aplicación web que permite ver el clima de una ciudad',
-    github: 'https://github.com/lnahuelfb/weather-app',
-    img: Weather,
-    technologies: ['HTML', 'CSS', 'TypeScript', 'React', 'React Context', 'Node + TypeScript', 'Express'],
-  },
-  {
-    title: 'TwitDev (En desarrollo)',
-    description: 'Una red social para desarrolladores que aman twitter. En ella podrás twittear, retwittear, dar likes y ver tanto tu perfil, como el de otros usuarios.',
-    img: Twitter,
-    // link: 'https://twitter-nahuelfb.vercel.app',
-    github: 'https://github.com/lnahuelfb/twitter-frontend',
-    technologies: ['HTML', 'CSS', 'React', 'React Context', 'NodeJS', 'Express', 'MongoDB', 'Mongoose']
+    title: 'Variocolorida',
+    description: 'Portfolio sobre diseño grafico creado para una cliente. En este se verán sus trabajos y podrán contactarla mediante un formulario.',
+    img: Variocolorida,
+    link: 'https://variocolorida.vercel.app',
+    github: 'https://github.com/lnahuelfb/variocolorida',
+    technologies: ['HTML', 'CSS', 'React', 'TypeScript', 'NodeJS', 'Express']
   },
   {
     title: 'Rick and Morty API',

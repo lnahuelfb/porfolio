@@ -30,6 +30,7 @@ export const Title = styled.h2`
   text-align: center;
   margin: 0;
   padding: 25px 0;
+  padding-top: 75px;
 `
 
 export const ProjectContainer = styled.div`

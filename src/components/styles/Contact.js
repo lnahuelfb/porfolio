@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const SubTitle = styled.h3`
   text-align: center;
   margin-top: 0;
-  padding-top: 25px;
+  padding-top: 75px;
 `
 
 export const Container = styled.div`

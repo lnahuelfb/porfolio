@@ -28,14 +28,14 @@ export const Container = styled.div`
   }
 `
 export const TextContainer = styled.div`
-  width: 40%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 
   @media screen and (max-width: 960px) {
     width: 100%;
+    align-items: center;
   }
 `
 
@@ -46,7 +46,7 @@ export const Text = styled.span`
 
 export const ImageContainer = styled.div`
   height: 400px;
-  width: 60%;
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;

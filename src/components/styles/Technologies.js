@@ -19,6 +19,7 @@ export const SubTitle = styled.h2`
   text-align: center;
   margin: 0;
   padding: 25px;
+  padding-top: 75px;
 `
 
 export const Span = styled.span`
