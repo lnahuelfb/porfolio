@@ -2,7 +2,7 @@ import PokeRandom from 'images/PokeRandom.png'
 import RickAndMorty from 'images/rick-and-morty.png'
 import ToDoList from 'images/todolist.png'
 import Variocolorida from 'images/variocolorida.png'
-// import Weather from 'images/sun.svg'
+import Weather from 'images/sun.svg'
 
 import ReactLogo from 'images/react.svg'
 import HTML from 'images/html5.svg'
@@ -14,6 +14,7 @@ import postgreSQL from 'images/postgresql.svg'
 import sequelize from 'images/Sequelize.svg'
 import mongodb from 'images/mongodb.png'
 import typeScript from 'images/typescript.svg'
+import Next from 'images/nextjs.svg'
 
 
 const techs = [
@@ -56,24 +57,28 @@ const techs = [
   {
     name: 'MongoDB',
     img: mongodb,
+  },
+  {
+    name: 'Next.JS',
+    img: Next
   }
 ]
 
 const projects = [
-  // {
-  //   title: 'Weather App (En desarrollo)',
-  //   description: 'Una aplicación web que permite ver el clima de una ciudad',
-  //   github: 'https://github.com/lnahuelfb/weather-app',
-  //   img: Weather,
-  //   technologies: ['HTML', 'CSS', 'TypeScript', 'React', 'React Context', 'Node + TypeScript', 'Express'],
-  // },
   {
-    title: 'Variocolorida',
+    title: 'Variocolorida (En desarrollo)',
     description: 'Portfolio sobre diseño grafico creado para una cliente. En este se verán sus trabajos y podrán contactarla mediante un formulario.',
     img: Variocolorida,
     link: 'https://variocolorida.vercel.app',
     github: 'https://github.com/lnahuelfb/variocolorida',
-    technologies: ['HTML', 'CSS', 'React', 'TypeScript', 'NodeJS', 'Express']
+    technologies: ['HTML', 'CSS', 'React', 'NextJS', 'MongoDB']
+  },
+  {
+    title: 'Weather App (En desarrollo)',
+    description: 'Una aplicación web que permite ver el clima de una ciudad',
+    github: 'https://github.com/lnahuelfb/weather-app',
+    img: Weather,
+    technologies: ['HTML', 'CSS', 'TypeScript', 'React', 'React Context', 'Node + TypeScript', 'Express'],
   },
   {
     title: 'Rick and Morty API',

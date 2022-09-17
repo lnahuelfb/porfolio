@@ -27,6 +27,7 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: auto;
+  z-index: 1;
 `
 
 export const LogoContainer = styled.div`
