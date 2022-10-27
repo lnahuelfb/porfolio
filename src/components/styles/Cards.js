@@ -8,15 +8,6 @@ export const CardContainer = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* border-left: 1px solid #b0b0b0;
-  border-right: 1px solid #b0b0b0; */
-  /* margin-top: 25px;
-  padding-top: 20px;
-  padding-bottom: 20px; */
-
-  hover + Name{
-    display: block;
-  };
 
   @media screen and (max-width: 960px) {
     width: fit-content;
@@ -26,14 +17,12 @@ export const CardContainer = styled.div`
 `
 
 export const Name = styled.span`
-  font-size: 24px;
-  font-weight: bold;
-  display: none;
+  font-size: 20px;
 `
 
 export const Img = styled.img`
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 75px;
   filter: grayscale(100%);
 
   :hover{
@@ -44,4 +33,9 @@ export const Img = styled.img`
   @media screen and (max-width: 960px) {
     width: 100%;
   }
+`
+
+export const ImageContainer = styled.figure`
+  width: 75px;
+  height: 75px;
 `

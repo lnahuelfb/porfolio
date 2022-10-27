@@ -5,6 +5,7 @@ export const Container = styled.div`
   margin: 0;
   text-align: center;
   padding: 25px 75px;
+  z-index: 0;
 
   @media screen and (max-width: 960px) and (min-width: 481px){
     width: 100%;
@@ -32,7 +33,7 @@ export const CardsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 30px;
+  margin-top: 55px;
   padding-bottom: 30px;
   align-items: center;
   gap: 100px;

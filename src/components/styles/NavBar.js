@@ -134,4 +134,5 @@ export const Background = styled.div`
   background-color: transparent;
   position: sticky;
   top: 0;
+  z-index: 99;
 `

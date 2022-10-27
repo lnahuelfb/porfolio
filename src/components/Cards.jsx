@@ -1,12 +1,14 @@
 import React from 'react';
 
-import { CardContainer, Name, Img } from './styles/Cards';
+import { CardContainer, Name, ImageContainer, Img } from './styles/Cards';
 
-export default function Cards(props) {
+export default function Cards({ name, img }) {
   return (
     <CardContainer>
-      <Name>{props.name}</Name>
-      <Img src={props.img} alt={props.name}/>
+      <Name>{name}</Name>
+      <ImageContainer>
+        <Img src={img} alt={name} />
+      </ImageContainer>
     </CardContainer>
   )
 }

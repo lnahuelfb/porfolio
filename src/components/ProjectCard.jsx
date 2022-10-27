@@ -2,25 +2,25 @@ import React from 'react';
 
 import { Card, Title, Img, TextContainer, Description, Technologies, A, Button } from './styles/ProjectCard';
 
-export default function ProjectCard(props) {
+export default function ProjectCard({title, img, description, technologies, github, link}) {
   return (
     <Card>
-      <Title>{props.title}</Title>
-      <Img src={props.img} alt={props.title} />
+      <Title>{title}</Title>
+      <Img src={img} alt={title} />
       <TextContainer>
-        <Description>{props.description}</Description>
-        <Technologies>Hecho con: {props.technologies.join(', ')}.</Technologies>
+        <Description>{description}</Description>
+        <Technologies>Hecho con: {technologies.join(', ')}.</Technologies>
       </TextContainer>
-      <A href={props.github} target='_blank' rel="noopener noreferrer">
+      <A href={github} target='_blank' rel="noopener noreferrer">
         <Button>
           Ingresa al repositorio
         </Button>
       </A>
       {
-        props.link
+        link
           ?
           <>
-            <A href={props.link} target='_blank' rel="noopener noreferrer">
+            <A href={link} target='_blank' rel="noopener noreferrer">
               <Button>
                 Ver el proyecto
               </Button>
