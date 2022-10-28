@@ -16,7 +16,6 @@ import mongodb from 'images/mongodb.png'
 import typeScript from 'images/typescript.svg'
 import Next from 'images/nextjs.svg'
 
-
 const techs = [
   {
     name: 'HTML',
@@ -39,6 +38,10 @@ const techs = [
     img: ReactLogo,
   },
   {
+    name: 'Next.JS',
+    img: Next
+  },
+  {
     name: 'NodeJS',
     img: node,
   },
@@ -57,17 +60,13 @@ const techs = [
   {
     name: 'MongoDB',
     img: mongodb,
-  },
-  {
-    name: 'Next.JS',
-    img: Next
   }
 ]
 
 const projects = [
   {
     title: 'Variocolorida (En desarrollo)',
-    description: 'Portfolio sobre diseño grafico creado para una cliente. En este se verán sus trabajos y podrán contactarla mediante un formulario.',
+    description: 'Proyecto freelance para una diseñadora grafica. En este se verán sus trabajos y podrán contactarla mediante un formulario.',
     img: Variocolorida,
     link: 'https://variocolorida.vercel.app',
     github: 'https://github.com/lnahuelfb/variocolorida',
@@ -114,4 +113,4 @@ const projects = [
   },
 ]
 
-export {techs, projects}
+export { techs, projects }

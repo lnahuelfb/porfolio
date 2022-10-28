@@ -36,20 +36,21 @@ export const Technologies = styled.span`
 
 export const Button = styled.button`
   width: 100%;
-  height: 25px;
+  height: 35px;
   cursor: pointer;
   border-radius: 7px;
   border: solid 1px #b0b0b0;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   background-color: #7510F7;
   color: white;
+
   :hover {
     background-color: white;
     color: #7510F7;
   }
 `
 export const A = styled.a`
-  width: 50%;
+  width: 35%;
   margin-bottom: 21.28px;
 `
 
@@ -63,4 +64,10 @@ export const TextContainer = styled.div`
   margin-bottom: 7px;
   word-wrap: word-break;
   overflow: hidden;
+`
+
+export const ButtonsContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 `

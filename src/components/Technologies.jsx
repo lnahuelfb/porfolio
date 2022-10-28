@@ -12,7 +12,7 @@ export default function Technologies() {
       <Span>En esta sección les mencionaré las tecnologías que utilizo en mis proyectos.</Span>
       <CardsContainer>
         {
-          techs && techs.map(({name, img}) => <Cards key={name} name={name} img={img}/>)
+          techs && techs.map(({ name, img }) => <Cards key={name} name={name} img={img} />)
         }
       </CardsContainer>
     </Container>

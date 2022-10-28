@@ -19,7 +19,7 @@ export const Container = styled.div`
     width: 100%;
   }
 
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:560px) {
     padding: 0 10px;
     border-radius: 25px 25px 0px 0px;
   }

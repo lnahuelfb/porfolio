@@ -14,7 +14,7 @@ export const Container = styled.div`
     flex-direction: column;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 560px) {
     padding: 0 10px;
     height: fit-content;
     justify-content: center;

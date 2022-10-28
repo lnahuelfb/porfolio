@@ -11,11 +11,11 @@ export const Container = styled.div`
   color: white;
   padding: 0 75px;
 
-  @media screen and (max-width: 960px) and (min-width: 481px) {
+  @media screen and (max-width: 960px) and (min-width: 561px) {
     width: 100%;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 560px) {
     padding: 0 10px;
   }
 `
@@ -73,7 +73,7 @@ export const TextArea = styled.textarea`
 
 export const Button = styled.button`
   width: 25%;
-  height: 30px;
+  height: 35px;
   margin-top: 20px;
   border-radius: 7px;
   color: #7510F7;
