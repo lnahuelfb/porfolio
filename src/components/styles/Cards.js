@@ -18,6 +18,10 @@ export const CardContainer = styled.div`
 
 export const Name = styled.span`
   font-size: 20px;
+
+  @media screen and (max-width: 350px) {
+    font-size: 19px;
+  }
 `
 
 export const Img = styled.img`
@@ -38,4 +42,5 @@ export const Img = styled.img`
 export const ImageContainer = styled.figure`
   width: 75px;
   height: 75px;
+  margin: 0;
 `

@@ -39,7 +39,7 @@ export const CardsContainer = styled.div`
   gap: 100px;
 
   @media screen and (max-width:320px) {
-    flex-direction: column;
     align-items: center;
+    gap: none;
   }
 `
