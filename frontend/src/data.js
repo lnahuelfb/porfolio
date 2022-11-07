@@ -60,6 +60,10 @@ const techs = [
   {
     name: 'MongoDB',
     img: mongodb,
+  },
+  {
+    name: 'Vue 3 (Aprendiendo)',
+    img: 'https://blog.vuejs.org/logo.svg'
   }
 ]
 

@@ -71,6 +71,21 @@ export const TextArea = styled.textarea`
   }
   `
 
+export const ButtonLoading = styled.button`
+  width: 25%;
+  height: 35px;
+  margin-top: 20px;
+  border-radius: 7px;
+  font-weight: bold;
+  background-color: #7510F7;
+  color: white;
+  border: 2px solid white;
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
+`
+
 export const Button = styled.button`
   width: 25%;
   height: 35px;
