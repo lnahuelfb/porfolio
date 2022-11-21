@@ -69,7 +69,7 @@ const techs = [
 
 const projects = [
   {
-    title: 'Variocolorida (En desarrollo)',
+    title: 'Variocolorida',
     description: 'Proyecto freelance para una diseñadora grafica. En este se verán sus trabajos y podrán contactarla mediante un formulario.',
     img: Variocolorida,
     link: 'https://variocolorida.vercel.app',
