@@ -14,7 +14,7 @@ export default function AboutMe() {
             Soy Nahuel Fernandez Beschtedt, <Bold>desarrollador Full Stack.</Bold> <br/>
             Desde niño me fascinó la web. Como día a día nos ayuda a estar al tanto de las noticias, a entretenernos y mas importante, para <Bold>Aprender!</Bold> 
           </Text>
-          <a href="https://drive.google.com/file/d/1yGfGZNVqaWC---jN-b9lA3vbz-GVd2bs/view?usp=sharing" target='_blank' rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/13z2AHUU7dYcgyx8JgUogtjc004Gx1WPA/view?usp=sharing" target='_blank' rel="noopener noreferrer">
             <Button >
               Mirá mi Curriculum!
             </Button>

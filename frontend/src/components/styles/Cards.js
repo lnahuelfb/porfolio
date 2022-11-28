@@ -28,6 +28,7 @@ export const Img = styled.img`
   width: 100%;
   height: 75px;
   filter: grayscale(100%);
+  object-fit: contain;
 
   :hover{
     transition: all 0.5s ease-out;
