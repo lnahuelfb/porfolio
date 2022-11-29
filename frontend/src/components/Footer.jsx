@@ -16,15 +16,15 @@ export default function Footer() {
       </LogoContainer>
       <SocialContainer>
         <a href='https://www.linkedin.com/in/nahuel-fernandez-beschtedt/' target='_blank' rel="noopener noreferrer">
-          <Img src={Linkedin} alt="LinkedIn" />
+          <Img src={Linkedin} alt="LinkedIn" loading="lazy"/>
         </a>
 
         <a href="https://github.com/lnahuelfb" target='_blank' rel="noopener noreferrer">
-          <Img src={GitHub} alt='GitHub' />
+          <Img src={GitHub} alt='GitHub' loading="lazy"/>
         </a>
 
         <a href="https://api.whatsapp.com/send?phone=541163783961" target='_blank' rel="noopener noreferrer">
-          <Img src={WhatsApp} alt='WhatsApp'/>
+          <Img src={WhatsApp} alt='WhatsApp' loading="lazy"/>
         </a>
       </SocialContainer>
     </Container>
