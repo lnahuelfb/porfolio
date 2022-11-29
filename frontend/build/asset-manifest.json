@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2b8c817.css",
+    "main.js": "/static/js/main.9ab5688e.js",
+    "static/media/rick-and-morty.png": "/static/media/rick-and-morty.42c8df0b92603ef2e2e2.png",
+    "static/media/variocolorida.png": "/static/media/variocolorida.842692b547d52e2e631c.png",
+    "static/media/whatsApp.png": "/static/media/whatsApp.31765d27eeae93a94c7c.png",
+    "static/media/PokeRandom.png": "/static/media/PokeRandom.018acf0631fb5de4656d.png",
+    "static/media/todolist.png": "/static/media/todolist.adeaa6491a01e39be600.png",
+    "static/media/photo.jpg": "/static/media/photo.9cbe806e0c8669d09118.jpg",
+    "static/media/linkedin.svg": "/static/media/linkedin.52f1c795df2b386a1cf16015c36a8d42.svg",
+    "index.html": "/index.html",
+    "static/media/sun.svg": "/static/media/sun.78bd04f93757be44a86c3fa1c21d09b7.svg",
+    "main.a2b8c817.css.map": "/static/css/main.a2b8c817.css.map",
+    "main.9ab5688e.js.map": "/static/js/main.9ab5688e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2b8c817.css",
+    "static/js/main.9ab5688e.js"
+  ]
+}
