@@ -26,7 +26,7 @@ export default function Contact() {
     setLoading(true)
 
     try {
-      const response = await fetch('/send-email', {
+      const response = await fetch('/api/send-email', {
         method: 'POST',
         body: JSON.stringify(input),
         headers: {
