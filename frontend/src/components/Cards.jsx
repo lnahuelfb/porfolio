@@ -7,7 +7,7 @@ export default function Cards({ name, img }) {
     <CardContainer>
       <Name>{name}</Name>
       <ImageContainer>
-        <Img src={img} alt={name} />
+        <Img src={img} alt={name} loading="lazy"/>
       </ImageContainer>
     </CardContainer>
   )

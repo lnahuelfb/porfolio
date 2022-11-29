@@ -6,7 +6,7 @@ export default function ProjectCard({ title, img, description, technologies, git
   return (
     <Card>
       <Title>{title}</Title>
-      <Img src={img} alt={title} />
+      <Img src={img} alt={title} loading="lazy"/>
       <TextContainer>
         <Description>{description}</Description>
         <Technologies>Hecho con: {technologies.join(', ')}.</Technologies>

@@ -21,7 +21,7 @@ export default function AboutMe() {
           </a>
         </TextContainer>
         <ImageContainer>
-          <Img src={ Photo } alt='imagen'/>
+          <Img src={ Photo } alt='imagen' loading="lazy"/>
         </ImageContainer>
       </Container>
     </Background>
